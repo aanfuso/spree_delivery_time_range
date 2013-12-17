@@ -1,0 +1,8 @@
+<div class="row steps-data">
+  <div class="columns sixteen">
+    <h6><%= t(:delivery_time) %></h6>
+    <div class="delivery-time">
+      <%= (order.delivery_time != nil) ? order.delivery_time : 'Unknown' %>
+    </div>
+  </div>
+</div>
