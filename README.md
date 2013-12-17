@@ -1,5 +1,7 @@
 # Spree Delivery Time Range
 
+[![Code Climate](https://codeclimate.com/github/aanfuso/spree_delivery_time_range.png)](https://codeclimate.com/github/aanfuso/spree_delivery_time_range)
+
 Based on [Spree Delivery Time](https://github.com/aanfuso/spree_delivery_time).
 
 It allows admins define time ranges for orders delivery instead of let users select by themselves like on spree_delivery_time.
