@@ -1,0 +1,21 @@
+es:
+  activerecord:
+    attributes:
+      spree/order:
+        delivery_time: Horario de entrega
+        start_delivery_time: Horario inicial de entrega
+        end_delivery_time: Horario final de entrega
+    errors:
+      models:
+        spree/order:
+          attributes:
+            start_delivery_time:
+              es: debe ser antes del horario de entrega final
+  helpers:
+    label:
+      order:
+        start_delivery_time: Horario inicial de entrega
+        end_delivery_time: Horario final de entrega
+  spree_delivery_time:
+    title: Franja horaria de entrega
+  delivery_time: Horario de entrega
