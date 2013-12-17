@@ -1,0 +1,16 @@
+<%= f.field_container :name do %>
+  <%= f.label :name %><br />
+  <%= f.text_field :name %>
+<% end %>
+<%= f.field_container :start_delivery_time do %>
+  <%= f.label :start_delivery_time %><br />
+  <%= f.time_select :start_delivery_time %>
+<% end %>
+<%= f.field_container :end_delivery_time do %>
+  <%= f.label :end_delivery_time %><br />
+  <%= f.time_select :end_delivery_time %>
+<% end %>
+<%= f.field_container :visible do %>
+  <%= f.label :visible %><br />
+  <%= f.check_box :visible %>
+<% end %>

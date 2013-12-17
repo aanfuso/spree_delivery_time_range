@@ -1,0 +1,35 @@
+<%= render partial: 'spree/admin/shared/configuration_menu' %>
+
+<% content_for :page_actions do %>
+  <li><%= button_link_to t("new_delivery_time_range"), new_object_url, icon: 'icon-plus' %></li>
+<% end %>
+
+<h1 class="page-title "> <%= t("listing_time_ranges") %></h1><br>
+
+<table class="index">
+  <thead>
+    <tr>
+      <th><%= t(:name) %></th>
+      <th><%= t(:delivery_time) %></th>
+      <th><%= t(:visible) %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @delivery_time_ranges.each do |time_range|%>
+      <tr id="<%= dom_id time_range %>">
+        <td class="align-center">
+          <%= link_to time_range.name, edit_admin_delivery_time_range_path(time_range) %>
+        </td>
+        <td class="align-center">
+          <%= time_range.delivery_time %>
+        </td>
+        <td class="align-center">
+          <%= content_tag(:i, '', class: 'icon-ok green') if time_range.visible %>
+        </td>
+        <td class="actions">
+          <%= link_to_edit time_range, no_text: true %> &nbsp;
+          <%= link_to_delete time_range, no_text: true %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

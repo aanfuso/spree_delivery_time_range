@@ -1,0 +1,10 @@
+<%= render partial: 'spree/admin/shared/configuration_menu' %>
+
+<h1><%=t("new_delivery_time_range")%></h1>
+
+<%= render 'spree/shared/error_messages', target: @delivery_time_range %>
+
+<%= form_for [:admin, @delivery_time_range] do |f| %>
+  <%= render partial: "form", locals: { f: f } %>
+  <%= render partial: "spree/admin/shared/new_resource_links" %>
+<% end %>
