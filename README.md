@@ -4,9 +4,9 @@
 
 Based on [Spree Delivery Time](https://github.com/aanfuso/spree_delivery_time).
 
-It allows admins define time ranges for orders delivery instead of let users select by themselves like on spree_delivery_time.
+It allows admins to define time ranges for orders delivery instead of let users define it by themselves like on spree_delivery_time.
 
-The user can select a range of time, defined by the admin, during the checkout process to chose when they want to receive his order.
+The users can select a range of time, defined by the admin, during the checkout process to chose when they want to receive their order.
 
 ## Installation
 

@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = SpreeDeliveryTimeRange::VERSION
   spec.authors       = ["Agustin Anfuso"]
   spec.email         = ["anfusoagustin89@gmail.com"]
-  spec.description   = %q{Allows admins define time ranges for orders delivery so user can select during the checkout process when they want his order.}
+  spec.description   = %q{Allows admin to define time ranges for orders delivery so users can select when they want their orders to be delivered, during the checkout process.}
   spec.summary       = %q{Define time ranges for orders.}
   spec.homepage      = ""
   spec.license       = "MIT"
