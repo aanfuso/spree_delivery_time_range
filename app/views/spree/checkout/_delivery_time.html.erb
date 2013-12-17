@@ -1,0 +1,7 @@
+<br />
+<div id="delivery_time">
+  <legend><%= t('spree_delivery_time.title') %></legend>
+  <div class="field">
+    <%= form.collection_select :delivery_time, Spree::DeliveryTimeRange.visible, :delivery_time_description, :delivery_time_description %>
+  </div>
+</div>
