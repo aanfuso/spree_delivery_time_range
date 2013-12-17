@@ -1,5 +1,2 @@
-require "spree_delivery_time_range/version"
-
-module SpreeDeliveryTimeRange
-  # Your code goes here...
-end
+require 'spree_core'
+require 'spree_delivery_time_range/engine'
