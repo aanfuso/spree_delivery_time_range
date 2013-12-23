@@ -1,12 +1,12 @@
 <%= render partial: 'spree/admin/shared/configuration_menu' %>
 
 <% content_for :page_title do %>
-  <%= t("new_delivery_time_range")%>
+  <%= t('spree.admin.new_time_range')%>
 <% end %>
 
 <% content_for :page_actions do %>
   <li>
-    <%= button_link_to t(:back_to_delivery_time_ranges), spree.admin_delivery_time_ranges_path, icon: 'icon-arrow-left' %>
+    <%= button_link_to t('spree.admin.back_to_time_ranges'), spree.admin_delivery_time_ranges_path, icon: 'icon-arrow-left' %>
   </li>
 <% end %>
 

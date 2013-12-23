@@ -5,6 +5,8 @@ es:
         delivery_time: Horario de entrega
         start_delivery_time: Horario inicial de entrega
         end_delivery_time: Horario final de entrega
+      start_delivery_time: Horario inicial de entrega
+      end_delivery_time: Horario final de entrega
     errors:
       models:
         spree/order:
@@ -16,6 +18,14 @@ es:
       order:
         start_delivery_time: Horario inicial de entrega
         end_delivery_time: Horario final de entrega
+  spree:
+    admin:
+      menu:
+        delivery_time_ranges: Franjas horarias de entrega
+      new_time_range: Nueva franja horaria de entrega
+      editing_time_range: Editar franja horaria de entrega
+      listing_time_ranges: Franjas horarias de entrega
+      back_to_time_ranges: Volver a franjas horarias de entrega
   spree_delivery_time:
     title: Franja horaria de entrega
   delivery_time: Horario de entrega

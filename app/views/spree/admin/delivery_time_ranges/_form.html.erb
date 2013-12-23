@@ -1,7 +1,7 @@
 <div data-hook="admin_relivery_time_ranges_form_fields" class="row">
   <div class="alpha six columns">
     <div data-hook="name" class="field">
-      <%= f.label :name %><br />
+      <%= f.label t(:name) %><br />
       <%= f.text_field :name, class: 'fullwidth' %>
     </div>
     <div data-hook="visible" class="field checkbox">
@@ -14,11 +14,11 @@
 
   <div class="omega six columns">
     <div data-hook="start_delivery_time_range" class="field">
-      <%= f.label :start_delivery_time %><br />
+      <%= f.label t('activerecord.attributes.start_delivery_time') %><br />
       <%= f.time_select :start_delivery_time %>
     </div>
     <div data-hook="end_delivery_time_range" class="field">
-      <%= f.label :end_delivery_time %><br />
+      <%= f.label t('activerecord.attributes.end_delivery_time') %><br />
       <%= f.time_select :end_delivery_time %>
     </div>
   </div>

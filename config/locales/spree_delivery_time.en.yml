@@ -5,6 +5,8 @@ en:
         delivery_time: Delivery Time
         start_delivery_time: Start delivery time
         end_delivery_time: End delivery time
+      start_delivery_time: Start delivery time
+      end_delivery_time: End delivery time
     errors:
       models:
         spree/order:
@@ -16,6 +18,14 @@ en:
       order:
         start_delivery_time: Start delivery time
         end_delivery_time: End delivery time
+  spree:
+    admin:
+      menu:
+        delivery_time_ranges: Delivery time ranges
+      new_time_range: New delivery time range
+      editing_time_range: Edit delivery time range
+      listing_time_ranges: Delivery time ranges
+      back_to_time_ranges: Back to delivery time ranges
   spree_delivery_time:
     title: Delivery Time Gap
   delivery_time: Delivery Time
