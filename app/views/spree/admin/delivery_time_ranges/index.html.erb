@@ -1,10 +1,14 @@
 <%= render partial: 'spree/admin/shared/configuration_menu' %>
 
-<% content_for :page_actions do %>
-  <li><%= button_link_to t("new_delivery_time_range"), new_object_url, icon: 'icon-plus' %></li>
+<% content_for :page_title do %>
+  <%= t("listing_time_ranges") %>
 <% end %>
 
-<h1 class="page-title "> <%= t("listing_time_ranges") %></h1><br>
+<% content_for :page_actions do %>
+  <li>
+    <%= button_link_to t("new_delivery_time_range"), new_object_url, icon: 'icon-plus' %>
+  </li>
+<% end %>
 
 <table class="index">
   <thead>
