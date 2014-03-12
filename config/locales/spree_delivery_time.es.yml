@@ -1,6 +1,10 @@
 es:
   activerecord:
     attributes:
+      spree/delivery_time_range:
+        name: Nombre
+        end_delivery_time: Horario final de entrega
+        start_delivery_time: Horario inicial de entrega
       spree/order:
         delivery_time: Horario de entrega
         start_delivery_time: Horario inicial de entrega
